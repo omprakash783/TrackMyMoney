@@ -1,0 +1,79 @@
+{
+  "name": "TrackMyMoney",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@hookform/resolvers": "^3.0.0",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/lab": "^5.0.0-alpha.123",
+    "@mui/material": "^5.11.13",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/react-hooks": "^7.0.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.16",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "axios": "^1.3.4",
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jest": "^27.2.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "firebase": "^9.17.2",
+    "prettier": "^2.8.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.7",
+    "react-minimal-pie-chart": "^8.4.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^9.1.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4",
+    "zod": "^3.21.4"
+  },
+  "author": {
+    "name": "Omprakash Bhinchar",
+    "email": "omprakashbhi4761@gmail.com"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "eject": "react-scripts eject"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/redux-mock-store": "^1.0.3",
+    "redux-mock-store": "^1.5.4"
+  }
+}
